@@ -17,7 +17,7 @@ public class Example4 {
 		System.out.println(nums);
 		nums.set(2, "zzzzzzz");
 		System.out.println(nums); //기존 배열값 변경
-		boolean result =nums.contains("b");
+		boolean result =nums.contains("b"); // contains = 데이터가 포함되어있는지 찾을때 사용 (t,f)
 		System.out.println(result);
 	}
 
